@@ -1,0 +1,6 @@
+---
+layout: post
+title: Chapter 7 update
+published: true
+---
+<p>As a couple different readers noted, there was a mistake in the flow of <a href="http://www.railstutorial.org/chapters/sign-up#top">Chapter 7</a> of the <a href="http://www.railstutorial.org/book">Ruby on Rails Tutorial book</a>: the error messages shown in <a href="http://www.railstutorial.org/chapters/sign-up#fig:signup_error_messages">Figure&nbsp;7.5</a> didn't actually appear in the tutorial as written, since there was no call to <tt>@user.save</tt> in the <tt>create</tt> action to generate them. In the process of fixing this problem, I realized there were other structural issues that needed to be addressed, including properly test-driving the failing <tt>create</tt> action and introducing message expectations a little earlier. The result is that <a href="http://www.railstutorial.org/chapters/sign-up#sec:signup_failure">Section&nbsp;7.2:&nbsp;Signup failure</a> has been substantially rewritten, and <a href="http://www.railstutorial.org/chapters/sign-up#sec:signup_success">Section&nbsp;7.3:&nbsp;Signup success</a> has been revised as well. If you've already worked through Chapter 7, you might want to revisit the updated sections so that you'll be ready for Chapter&nbsp;8, which I hope to release some time next week.</p>

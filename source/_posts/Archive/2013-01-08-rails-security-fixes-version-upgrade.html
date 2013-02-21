@@ -1,0 +1,12 @@
+---
+layout: post
+title: Rails security fixes, version upgrade
+published: true
+---
+<p>I've just upgraded the <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book">Ruby on Rails Tutorial</a> to use Rails&nbsp;3.2.11, which contains two important security fixes (one for <a href="https://groups.google.com/forum/?fromgroups=#!topic/rubyonrails-security/DCNTNp_qjFM">SQL injection</a> and one for <a href="https://groups.google.com/forum/#!topic/rubyonrails-security/61bkgvnSGTQ/discussion">parameter parsing</a>). The latest versions of the online book, ebooks, and sample application all now reflect this change.</p>
+<p>It is critical to upgrade all of your production applications as soon as possible. The easiest way to do this is to edit your <tt>Gemfile</tt> and change the Rails gem version from <tt>'3.2.x'</tt> to <tt>'3.2.11'</tt>. Then run</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ bundle update rails &amp;&amp; bundle install</pre></div>
+</div>
+
+<p>to apply the update. (If you're running Rails 3.1.x, 3.0.x, or 2.3.x, there are security patches for those branches as well, as detailed in the <a href="https://groups.google.com/forum/#!topic/rubyonrails-security/61bkgvnSGTQ/discussion">parameter parsing post</a>.)</p>

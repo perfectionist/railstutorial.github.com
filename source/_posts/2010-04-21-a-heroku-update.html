@@ -1,0 +1,11 @@
+---
+layout: post
+title: A Heroku update
+published: true
+---
+<p>I've added a note to <a href="http://www.railstutorial.org/chapters/a-demo-app#sec:deploying_the_demo_app">Section 2.3.5 (Deploying the demo app)</a> about pushing <em>data</em> as well as data <em>models</em> up to <a href="http://heroku.com/">Heroku</a>. This uses the <tt>taps</tt> gem (along with the main <tt>heroku</tt> gem), which has recently been updated by Heroku. <a href="http://rubyonrailstutorial.org/">Ruby on Rails Tutorial</a> readers using Heroku should update both gems per this <a href="http://blog.heroku.com/archives/2010/4/21/supporting_big_data_part_1/">Heroku blog post on supporting large data sets</a>:</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ [sudo] gem update heroku taps</pre></div>
+</div>
+
+<p>(As indicated by the square brackets, many users will need to use <tt>sudo</tt> to install gems, but users of <a href="http://rvm.beginrescueend.com/">Ruby Version Manager (rvm)</a> should omit it.)</p>

@@ -1,0 +1,11 @@
+---
+layout: post
+title: Installation update for OS X/Linux
+published: true
+---
+<p>Alert screencast viewer Stefano Bernardi notes that I missed a step at the end of the <a href="http://rvm.beginrescueend.com/rvm/install/">RVM setup</a> in the Mac OS&nbsp;X/Linux Rails installation screencast. The first time you install RVM, you should put the line</p>
+<div class="CodeRay">
+  <div class="code"><pre>[[ -s &quot;$HOME/.rvm/scripts/rvm&quot; ]] &amp;&amp; . &quot;$HOME/.rvm/scripts/rvm&quot;</pre></div>
+</div>
+
+<p>in the <tt>.profile</tt> file in your home directory (and then, just to be safe, log out of the terminal and then log back in). I've updated the screencast accordingly; sorry for any inconvenience.</p>

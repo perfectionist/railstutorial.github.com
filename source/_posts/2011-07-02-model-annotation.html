@@ -1,0 +1,29 @@
+---
+layout: post
+title: Model annotation
+published: true
+---
+<p>A helpful reader has noted that the <tt>annotate-models</tt> gem used by the <a href="http://ruby.railstutorial.org/">Ruby on Rails Tutorial</a> has disappeared from <a href="http://rubygems.org/">RubyGems</a>. When you try to <tt>bundle install</tt>, you get this error:</p>
+<div class="CodeRay">
+  <div class="code"><pre>Could not find gem 'annotate-models (= 1.0.4)'
+in any of the gem sources listed in your Gemfile.</pre></div>
+</div>
+
+<p>The solution is to use the <tt>annotate</tt> gem instead:</p>
+<p><strong><tt>Gemfile</tt></strong></p>
+<div class="CodeRay">
+  <div class="code"><pre>gem 'annotate', '2.4.0'</pre></div>
+</div>
+
+<p>Then run</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ bundle install</pre></div>
+</div>
+
+<p>as usual.</p>
+<p>In order to reproduce the behavior of the <tt>annotate</tt> command provided by <tt>annotate-models</tt>, you should use <tt>bundle exec</tt> and pass the new <tt>annotate</tt> command the <tt>before</tt> option:</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ bundle exec annotate --position before</pre></div>
+</div>
+
+<p>The <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book">Ruby on Rails Tutorial book</a> has been updated accordingly.</p>

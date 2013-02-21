@@ -1,0 +1,13 @@
+---
+layout: post
+title: A couple bugs, with fixes
+published: true
+---
+<p>I've fixed a couple of bugs in the recently released <a href="http://www.railstutorial.org/chapters/sign-in-sign-out#top">Sign in, sign out</a> chapter. Any readers who have already worked the chapter should update their code using the latest version. (Be sure to reload your browser and clear your browser cache to make sure you have the freshest release.)</p>
+<p>First, <a href="http://www.railstutorial.org/chapters/sign-in-sign-out#code:current_user_working">Listing 8.19</a> has been updated to prevent users with <tt>nil</tt> remember tokens from being automatically signed in. Second, and more seriously, <a href="http://www.railstutorial.org/chapters/sign-in-sign-out#code:remember_me">Listing 8.14</a> has been updated to allow users to sign in, sign out, and then sign in again. As originally written, users could only sign in once, which probably counts as a serious bug. :-) If you've already run into this issue, you should reset the affected user's password using the console:</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ script/console&gt;&gt; user = User.first # or whichever one it is&gt;&gt; user.update_attributes(:password =&gt; &quot;foobar&quot;, :password_confirmation =&gt; &quot;foobar&quot;)</pre></div>
+</div>
+
+<p>Then restart your development server.</p>
+<p>Thanks to the several readers who have already caught issues in this chapter, and especially to <a href="http://getsatisfaction.com/people/batkins">batkins</a> for catching the multiple-sign-in bug.</p>

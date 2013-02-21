@@ -1,0 +1,7 @@
+---
+layout: post
+title: Rails 2.3.6 addendum
+published: true
+---
+<p>It looks like I was a bit hasty in <a href="http://news.railstutorial.org/19125563">declaring my Rails 2.3.6 tutorial test suite green</a>. One test actually fails, the integration test for user signup, which includes a test for the success flash notice using <tt>response.should have_tag("div.flash.success")</tt>. This code, introduced in <a href="http://www.railstutorial.org/chapters/sign-up#sec:successful_signup">Listing 8.22</a> and included again incidentally as part of <a href="http://www.railstutorial.org/chapters/user-microposts#code:microposts_integration_spec">Listing 11.41</a>, can be fixed simply by removing (or commenting out) the offending line. (Of course, the tutorial has been updated accordingly.)</p>
+<p>To be clear, the <em>application</em> code still works fine; it's just the test that breaks, and there's nothing to be done (short of patching Rails) other than just axing the line. If you find this "solution" unsatisfying, that makes two of us. Unfortunately, minor Rails point releases sometimes break little things like this—indeed, the 2.3.4 to 2.3.5 upgrade broke a similar flash test in a client project, and the test is currently commented out with the note "Rails 2.3.5 broke this." Luckily, this particular test isn't all that important, but it is irritating nonetheless. Unfortunately, this is the price we pay for living on the bleeding edge…</p>

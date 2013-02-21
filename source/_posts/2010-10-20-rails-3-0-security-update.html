@@ -1,0 +1,18 @@
+---
+layout: post
+title: Rails 3.0 security update
+published: true
+---
+<p>The Rails core team recently announced <a href="http://weblog.rubyonrails.org/2010/10/15/security-vulnerability-in-nested-attributes-code-in-ruby-on-rails-2-3-9-and-3-0-0">a security update to Rails&nbsp;3.0</a>: Rails&nbsp;3.0.0 has a vulnerability that has been fixed in Rails&nbsp;3.0.1. Even though the Rails Tutorial sample application source code doesn't use the method (called <tt>accepts_nested_attributes_for</tt>) that has the vulnerability, the book and the Rails installation screencasts have been updated to reflect this change, just to be safe.</p>
+<p>If you purchased the <a href="http://railstutorial.org">Rails Tutorial PDF</a> or <a href="http://railstutorial.org/screencasts">screencasts</a>, you might want to revisit your download links for the latest versions of the book and the Rails installation files (the other screencasts are unaffected). You don't really have to, though, because it's easy to update your application: First, run</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ gem uninstall rails -v 3.0.0
+$ gem install   rails -v 3.0.1</pre></div>
+</div>
+
+<p>at the command line. Then edit the Gemfile, changing <tt>'3.0.0'</tt> to <tt>'3.0.1'</tt>. Finally, run</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ bundle install</pre></div>
+</div>
+
+<p>at the command line, and you should be good to go.</p>

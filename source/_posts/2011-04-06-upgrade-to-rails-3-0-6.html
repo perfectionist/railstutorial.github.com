@@ -1,0 +1,11 @@
+---
+layout: post
+title: Upgrade to Rails 3.0.6
+published: true
+---
+<p>I've just upgraded the <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book">Ruby on Rails Tutorial</a> to use Rails&nbsp;3.0.6, which contains an important <a href="http://weblog.rubyonrails.org/2011/4/6/rails-3-0-6-has-been-released">security fix</a> (though not one that affects the <a href="https://github.com/railstutorial/sample_app">Rails Tutorial sample application</a>). Upgrading your applications is easy: just edit your <tt>Gemfile</tt> and change the Rails gem version from <tt>'3.0.5'</tt> to <tt>'3.0.6'</tt>. Then run</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ bundle update rails &amp;&amp; bundle install</pre></div>
+</div>
+
+<p>to apply the update.</p>
