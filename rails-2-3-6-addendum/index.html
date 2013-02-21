@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Rails 2.3.6 addendum - Ruby on Rails Tutorial News</title>
+  <meta name="author" content="Michael Hartl">
+
+  
+  <meta name="description" content="It looks like I was a bit hasty in declaring my Rails 2.3.6 tutorial test suite green. One test actually fails, the integration test for user signup &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://railstutorial.github.com/rails-2-3-6-addendum/">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/railstutorial" rel="alternate" title="Ruby on Rails Tutorial News" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Ruby on Rails Tutorial News</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://feeds.feedburner.com/railstutorial" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=railstutorial" rel="subscribe-email" title="subscribe via email">Email</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:railstutorial.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://railstutorial.org/">Ruby on Rails Tutorial</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Rails 2.3.6 Addendum</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-23T00:00:00-07:00" pubdate data-updated="true">May 23<span>rd</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>It looks like I was a bit hasty in <a href="http://news.railstutorial.org/19125563">declaring my Rails 2.3.6 tutorial test suite green</a>. One test actually fails, the integration test for user signup, which includes a test for the success flash notice using <tt>response.should have_tag(&#8220;div.flash.success&#8221;)</tt>. This code, introduced in <a href="http://www.railstutorial.org/chapters/sign-up#sec:successful_signup">Listing 8.22</a> and included again incidentally as part of <a href="http://www.railstutorial.org/chapters/user-microposts#code:microposts_integration_spec">Listing 11.41</a>, can be fixed simply by removing (or commenting out) the offending line. (Of course, the tutorial has been updated accordingly.)</p>
+<p>To be clear, the <em>application</em> code still works fine; it&#8217;s just the test that breaks, and there&#8217;s nothing to be done (short of patching Rails) other than just axing the line. If you find this &#8220;solution&#8221; unsatisfying, that makes two of us. Unfortunately, minor Rails point releases sometimes break little things like this—indeed, the 2.3.4 to 2.3.5 upgrade broke a similar flash test in a client project, and the test is currently commented out with the note &#8220;Rails 2.3.5 broke this.&#8221; Luckily, this particular test isn&#8217;t all that important, but it is irritating nonetheless. Unfortunately, this is the price we pay for living on the bleeding edge…</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Michael Hartl</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-05-23T00:00:00-07:00" pubdate data-updated="true">May 23<span>rd</span>, 2010</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://railstutorial.github.com/rails-2-3-6-addendum/" data-via="" data-counturl="http://railstutorial.github.com/rails-2-3-6-addendum/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/adding-mockups-and-a-hippo-to-the-ruby-on-rails-tutorial-book/" title="Previous Post: Adding mockups (and a hippo) to the Ruby on Rails Tutorial book">&laquo; Adding mockups (and a hippo) to the Ruby on Rails Tutorial book</a>
+      
+      
+        <a class="basic-alignment right" href="/rails-2-3-6-tutorial-upgrade/" title="Next Post: Rails 2.3.6 tutorial upgrade">Rails 2.3.6 tutorial upgrade &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/rails-security-fixes-version-upgrade/">Rails security fixes, version upgrade</a>
+      </li>
+    
+      <li class="post">
+        <a href="/programmer-training-academies/">Programmer training academies</a>
+      </li>
+    
+      <li class="post">
+        <a href="/update-on-the-rails-tutorial-print-edition/">Update on the Rails Tutorial print edition</a>
+      </li>
+    
+      <li class="post">
+        <a href="/print-edition-of-the-ruby-on-rails-tutorial-book/">Print edition of the Ruby on Rails Tutorial book</a>
+      </li>
+    
+      <li class="post">
+        <a href="/new-epub-and-mobi-versions-of-the-ruby-on-rails-tutorial/">New EPUB and MOBI versions of the Ruby on Rails Tutorial</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Michael Hartl -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

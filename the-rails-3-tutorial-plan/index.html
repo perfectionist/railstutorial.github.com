@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>The Rails 3 tutorial plan - Ruby on Rails Tutorial News</title>
+  <meta name="author" content="Michael Hartl">
+
+  
+  <meta name="description" content="UPDATE: The Ruby on Rails 3 Tutorial book is now available! Some readers are understandably eager to sink their teeth into a Rails&nbsp;3 version of &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://railstutorial.github.com/the-rails-3-tutorial-plan/">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/railstutorial" rel="alternate" title="Ruby on Rails Tutorial News" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Ruby on Rails Tutorial News</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://feeds.feedburner.com/railstutorial" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=railstutorial" rel="subscribe-email" title="subscribe via email">Email</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:railstutorial.github.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://railstutorial.org/">Ruby on Rails Tutorial</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">The Rails 3 Tutorial Plan</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-18T00:00:00-07:00" pubdate data-updated="true">Mar 18<span>th</span>, 2010</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><strong>UPDATE:</strong> The <a href="http://rubyonrailstutorial.org">Ruby on Rails 3 Tutorial book</a> is now available!</p>
+<p>Some readers are understandably eager to sink their teeth into a Rails&nbsp;3 version of the <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a> book, and have been agitating publicly for a release. I wanted to address those concerns, and let you know what the plan is.</p>
+<p>In this age of perpetual beta&mdash;I mean, Gmail was in beta for <em>five years</em>, for Pete&#8217;s sake&mdash;it&#8217;s understandable that expectations for the Rails&nbsp;3 beta release are high. And indeed, there are lots of goodies in Rails&nbsp;3, but it&#8217;s a <em>real beta release</em>, not a Gmail-style &#8220;beta&#8221; release. The Rails Core team, and Yehuda Katz in particular, have emphasized that the principal audience for this beta release is plugin and gem developers, not Rails application developers. Due to the new public API, many parts of the Rails ecosystem need to be updated for the new version, so Rails Core wanted to get Rails&nbsp;3 in front of plugin developers as early as possible. Once the situation stabilizes, they will move on to release candidates aimed at application developers.</p>
+<p>There are other considerations as well. For one, Rails&nbsp;2 and Rails&nbsp;3 are incompatible; they can&#8217;t currently be run on the same system. (I learned this the hard way.) Even worse, the Rails&nbsp;3 beta fails to <em>uninstall</em> cleanly, which leads to all manner of confusion if you want to revert back to support Rails&nbsp;2 legacy projects. (Also learned the hard way.) The only way I know of to run both Rails&nbsp;2 and Rails&nbsp;3 on the same machine is to use <a href="http://rvm.beginrescueend.com/">Ruby Version Manager</a>, which is awesome but represents an awful lot of overhead for an introductory tutorial, and is also somewhat <a href="http://blog.mhartl.com/2010/02/19/some-rvm-gotchas/">error-prone</a>. In addition, RSpec 2 (the version of RSpec compatible with Rails&nbsp;3) is also in beta, and is under heavy development. (Autotest support, for example, was <a href="http://blog.davidchelimsky.net/2010/03/15/rspec-2-and-autotest/">updated yesterday</a>.) Since Rails Tutorial uses RSpec, this affects our plans as well.</p>
+<p>In short, it is too early to release a Rails&nbsp;3 version of the tutorial. The result would be an exercise in frustration, especially for readers new to Rails. (Given the many hours I&#8217;ve already burned on Rails&nbsp;3, I&#8217;m sure even experienced Rails programmers would feel the pain.) On the other hand, Rails&nbsp;3 <em>is</em> exciting, and I want a new version of Rails Tutorial as much as anyone. We just need to make sure that it actually, you know, <em>works</em>&hellip;</p>
+<p>In this spirit, I am hereby forming a <a href="http://www.railstutorial.org/brigade_members/new">Rails&nbsp;3 Tutorial Brigade</a> in charge of insuring that the updated tutorial Just Works&trade; with Rails&nbsp;3. Readers interested in being part of the select early readership for the Rails&nbsp;3 tutorial should sign up with their name and email address <a href="http://www.railstutorial.org/brigade_members/new">here</a>. I will contact you with further instructions when the time is ripe. :-)</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Michael Hartl</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2010-03-18T00:00:00-07:00" pubdate data-updated="true">Mar 18<span>th</span>, 2010</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://railstutorial.github.com/the-rails-3-tutorial-plan/" data-via="" data-counturl="http://railstutorial.github.com/the-rails-3-tutorial-plan/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/ruby-on-rails-tutorial-chapter-8-sign-in-sign-out-is-now-available/" title="Previous Post: Ruby on Rails Tutorial Chapter 8 ("Sign in, sign out") is now available">&laquo; Ruby on Rails Tutorial Chapter 8 ("Sign in, sign out") is now available</a>
+      
+      
+        <a class="basic-alignment right" href="/a-couple-bugs-with-fixes/" title="Next Post: A couple bugs, with fixes">A couple bugs, with fixes &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/rails-security-fixes-version-upgrade/">Rails security fixes, version upgrade</a>
+      </li>
+    
+      <li class="post">
+        <a href="/programmer-training-academies/">Programmer training academies</a>
+      </li>
+    
+      <li class="post">
+        <a href="/update-on-the-rails-tutorial-print-edition/">Update on the Rails Tutorial print edition</a>
+      </li>
+    
+      <li class="post">
+        <a href="/print-edition-of-the-ruby-on-rails-tutorial-book/">Print edition of the Ruby on Rails Tutorial book</a>
+      </li>
+    
+      <li class="post">
+        <a href="/new-epub-and-mobi-versions-of-the-ruby-on-rails-tutorial/">New EPUB and MOBI versions of the Ruby on Rails Tutorial</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Michael Hartl -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
