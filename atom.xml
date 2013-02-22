@@ -4,7 +4,7 @@
   <title><![CDATA[Ruby on Rails Tutorial News]]></title>
   <link href="http://news.railstutorial.org/atom.xml" rel="self"/>
   <link href="http://news.railstutorial.org/"/>
-  <updated>2013-02-21T16:46:19-08:00</updated>
+  <updated>2013-02-21T16:49:49-08:00</updated>
   <id>http://news.railstutorial.org/</id>
   <author>
     <name><![CDATA[Michael Hartl]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Rails Tutorial News Test post]]></title>
+    <title type="html"><![CDATA[Rails Tutorial News test post]]></title>
     <link href="http://news.railstutorial.org/test-post/"/>
     <updated>2013-02-21T00:00:00-08:00</updated>
     <id>http://news.railstutorial.org/test-post</id>
