@@ -262,6 +262,9 @@ multitask :push do
     puts "\n## Pushing generated #{deploy_dir} website"
     system "git push origin #{deploy_branch} --force"
     puts "\n## Github Pages deploy complete"
+    puts "\n" + '*' * 78
+    puts "\nCheck to make sure the email icon didn't disappear"
+    puts "\n" + '*' * 78
   end
 end
 
