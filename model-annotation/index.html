@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Model annotation - Ruby on Rails Tutorial News</title>
+  <meta name="author" content="Michael Hartl">
+
+  
+  <meta name="description" content="A helpful reader has noted that the annotate-models gem used by the Ruby on Rails Tutorial has disappeared from RubyGems. When you try to bundle &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://news.railstutorial.org/model-annotation/">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/railstutorial" rel="alternate" title="Ruby on Rails Tutorial News" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Ruby on Rails Tutorial News</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://feeds.feedburner.com/railstutorial" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=railstutorial" rel="subscribe-email" title="subscribe via email">Email</a></li>
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:news.railstutorial.org" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://railstutorial.org/">Ruby on Rails Tutorial</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Model annotation</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-02T00:00:00-07:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>A helpful reader has noted that the <tt>annotate-models</tt> gem used by the <a href="http://ruby.railstutorial.org/">Ruby on Rails Tutorial</a> has disappeared from <a href="http://rubygems.org/">RubyGems</a>. When you try to <tt>bundle install</tt>, you get this error:</p>
+<div class="CodeRay">
+  <div class="code"><pre>Could not find gem 'annotate-models (= 1.0.4)'
+in any of the gem sources listed in your Gemfile.</pre></div>
+</div>
+
+<p>The solution is to use the <tt>annotate</tt> gem instead:</p>
+<p><strong><tt>Gemfile</tt></strong></p>
+<div class="CodeRay">
+  <div class="code"><pre>gem 'annotate', '2.4.0'</pre></div>
+</div>
+
+<p>Then run</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ bundle install</pre></div>
+</div>
+
+<p>as usual.</p>
+<p>In order to reproduce the behavior of the <tt>annotate</tt> command provided by <tt>annotate-models</tt>, you should use <tt>bundle exec</tt> and pass the new <tt>annotate</tt> command the <tt>before</tt> option:</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ bundle exec annotate --position before</pre></div>
+</div>
+
+<p>The <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book">Ruby on Rails Tutorial book</a> has been updated accordingly.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Michael Hartl</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-07-02T00:00:00-07:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2011</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://news.railstutorial.org/model-annotation/" data-via="" data-counturl="http://news.railstutorial.org/model-annotation/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/rails-tutorial-rails-3-1/" title="Previous Post: Rails Tutorial & Rails 3.1">&laquo; Rails Tutorial & Rails 3.1</a>
+      
+      
+        <a class="basic-alignment right" href="/ruby-on-rails-tutorial-second-edition-updated-for-rails-3-2-/" title="Next Post: Ruby on Rails Tutorial, second edition (updated for Rails 3.2)">Ruby on Rails Tutorial, second edition (updated for Rails 3.2) &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/test-post/">Rails Tutorial News test post</a>
+      </li>
+    
+      <li class="post">
+        <a href="/rails-security-fixes-version-upgrade/">Rails security fixes, version upgrade</a>
+      </li>
+    
+      <li class="post">
+        <a href="/programmer-training-academies/">Programmer training academies</a>
+      </li>
+    
+      <li class="post">
+        <a href="/update-on-the-rails-tutorial-print-edition/">Update on the Rails Tutorial print edition</a>
+      </li>
+    
+      <li class="post">
+        <a href="/print-edition-of-the-ruby-on-rails-tutorial-book/">Print edition of the Ruby on Rails Tutorial book</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Michael Hartl -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

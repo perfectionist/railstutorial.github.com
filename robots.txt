@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://news.railstutorial.org/sitemap.xml 
