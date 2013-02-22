@@ -265,6 +265,7 @@ multitask :push do
     puts "\n" + '*' * 78
     puts "\nCheck to make sure the email icon didn't disappear"
     puts "\n" + '*' * 78
+    system "open http://news.railstutorial.org/images/email.png"
   end
 end
 
