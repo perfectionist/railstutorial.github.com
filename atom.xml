@@ -4,7 +4,7 @@
   <title><![CDATA[Ruby on Rails Tutorial News]]></title>
   <link href="http://news.railstutorial.org/atom.xml" rel="self"/>
   <link href="http://news.railstutorial.org/"/>
-  <updated>2013-03-13T21:44:51-07:00</updated>
+  <updated>2013-03-14T12:39:29-07:00</updated>
   <id>http://news.railstutorial.org/</id>
   <author>
     <name><![CDATA[Michael Hartl]]></name>
@@ -18,7 +18,7 @@
     <link href="http://news.railstutorial.org/rails-tutorial-chinese-translation/"/>
     <updated>2013-03-13T00:00:00-07:00</updated>
     <id>http://news.railstutorial.org/rails-tutorial-chinese-translation</id>
-    <content type="html"><![CDATA[<p>I&#8217;m pleased to announce the availability of a <a href="http://about.ac/rails-tutorial-2nd-cn/">Chinese translation of the Ruby on Rails Tutorial</a>. I&#8217;d like to thank translator Andor Chen for his outstanding work. I deserve none of the credit; Andor reached out to me and asked if it was OK to translate the book, and I happily agreed. (All I did was contribute a <a href="http://about.ac/rails-tutorial-2nd-cn/preface.html">short preface</a>.) With my blessing, Andor is also offering ebook sales of the translation, the proceeds of which go directly to him. If you are a Chinese speaker, please <a href="http://about.ac/rails-tutorial-2nd-cn/">check it out</a>!</p>
+    <content type="html"><![CDATA[<p>I&#8217;m pleased to announce the availability of a <a href="http://about.ac/rails-tutorial-2nd-cn/">Chinese translation of the Ruby on Rails Tutorial</a>. I&#8217;d like to thank translator Andor Chen for his outstanding work. I deserve none of the credit; Andor reached out to me and asked if it was OK to translate the book, and I happily agreed. (All I did was contribute a <a href="http://about.ac/rails-tutorial-2nd-cn/preface.html">short preface</a>.) As with the English version, the Chinese translation is available for free online as HTML; with my blessing, Andor is also offering ebook sales of the translation, the proceeds of which go directly to him. If you are a Chinese speaker, please <a href="http://about.ac/rails-tutorial-2nd-cn/">check it out</a>!</p>
 ]]></content>
   </entry>
   
