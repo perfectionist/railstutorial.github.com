@@ -1,395 +1,397 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://railstutorial.github.com/coming-to-life/</loc>
+        <loc>http://news.railstutorial.org/coming-to-life/</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/initial-ruby-on-rails-tutorial-chapters/</loc>
+        <loc>http://news.railstutorial.org/initial-ruby-on-rails-tutorial-chapters/</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/irc-channel-for-rails-tutorial/</loc>
+        <loc>http://news.railstutorial.org/irc-channel-for-rails-tutorial/</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/ruby-on-rails-tutorial-pdf-download-now-available/
+            http://news.railstutorial.org/ruby-on-rails-tutorial-pdf-download-now-available/
         </loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/ruby-on-rails-tutorial-schedule/</loc>
+        <loc>http://news.railstutorial.org/ruby-on-rails-tutorial-schedule/</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/is-rspec-too-complex-for-rails-tutorial-/</loc>
+        <loc>http://news.railstutorial.org/is-rspec-too-complex-for-rails-tutorial-/</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/poll-results-rspec-in-a-landslide/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/testing-tools-and-an-important-note-for-ruby-1-9-users/
-        </loc>
+        <loc>http://news.railstutorial.org/poll-results-rspec-in-a-landslide/</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/chapter-5-of-the-ruby-on-rails-tutorial-book-is-out/
-        </loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/links-for-section-headings/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/chapter-6-of-the-ruby-on-rails-tutorial-book/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/chapter-7-of-the-ruby-on-rails-tutorial-book/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/chapter-7-update/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/ruby-on-rails-tutorial-chapter-8-sign-in-sign-out-is-now-available/
-        </loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/the-rails-3-tutorial-plan/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/a-couple-bugs-with-fixes/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/ruby-heroes/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/ruby-on-rails-tutorial-chapter-9-is-out/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/a-new-chapter-2-for-ruby-on-rails-tutorial/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/a-heroku-update/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/chapter-11-user-microposts/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/miscellaneous-fixes/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/some-chapter-11-changes/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/adding-mockups-and-a-hippo-to-the-ruby-on-rails-tutorial-book/
-        </loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-2-3-6-addendum/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-2-3-6-tutorial-upgrade/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/oy-vey-a-rails-2-3-8-update-already/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-2-3-7-tutorial-update/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/chapter-12-is-out-the-rails-2-3-8-tutorial-is-complete/
-        </loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/the-rails-tutorial-vanguard/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/last-pre-rails-3-update/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/rails-tutorial-vanguard-slots-and-a-payment-plan/
-        </loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/ruby-and-the-tau-manifesto/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/deploying-to-heroku-with-rails-3-0-0-rc/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/the-ruby-on-rails-3-tutorial-book-including-pdf-downloads-is-out/
+            http://news.railstutorial.org/testing-tools-and-an-important-note-for-ruby-1-9-users/
         </loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/deploying-to-heroku-with-rails-3-0-0-rc-part-ii/
+            http://news.railstutorial.org/chapter-5-of-the-ruby-on-rails-tutorial-book-is-out/
+        </loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/links-for-section-headings/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/chapter-6-of-the-ruby-on-rails-tutorial-book/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/chapter-7-of-the-ruby-on-rails-tutorial-book/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/chapter-7-update/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://news.railstutorial.org/ruby-on-rails-tutorial-chapter-8-sign-in-sign-out-is-now-available/
+        </loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/the-rails-3-tutorial-plan/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/a-couple-bugs-with-fixes/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/ruby-heroes/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/ruby-on-rails-tutorial-chapter-9-is-out/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/a-new-chapter-2-for-ruby-on-rails-tutorial/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/a-heroku-update/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/chapter-11-user-microposts/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/miscellaneous-fixes/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/some-chapter-11-changes/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://news.railstutorial.org/adding-mockups-and-a-hippo-to-the-ruby-on-rails-tutorial-book/
+        </loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-2-3-6-addendum/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-2-3-6-tutorial-upgrade/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/oy-vey-a-rails-2-3-8-update-already/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-2-3-7-tutorial-update/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://news.railstutorial.org/chapter-12-is-out-the-rails-2-3-8-tutorial-is-complete/
+        </loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/the-rails-tutorial-vanguard/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/last-pre-rails-3-update/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-tutorial-vanguard-slots-and-a-payment-plan/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/ruby-and-the-tau-manifesto/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/deploying-to-heroku-with-rails-3-0-0-rc/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://news.railstutorial.org/the-ruby-on-rails-3-tutorial-book-including-pdf-downloads-is-out/
+        </loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/deploying-to-heroku-with-rails-3-0-0-rc-part-ii/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://news.railstutorial.org/get-a-40-discount-on-the-rails-3-tutorial-book-one-day-only-/
+        </loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/the-ruby-on-rails-3-tutorial-screencast-series/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-3-0-security-update/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/making-the-big-time-/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-tutorial-coupon-code/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-tutorial-review-in-dr-dobb-s/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/installation-update-for-os-x-linux/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/post-turkey-day-sale/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://news.railstutorial.org/rails-tutorial-book-upgraded-to-rails-3-0-3-and-rspec-2-1-0/
+        </loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/la-rubyconf-and-the-rails-tutorial-story/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-tutorial-holiday-discount/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://news.railstutorial.org/the-print-edition-of-the-ruby-on-rails-3-tutorial-is-out/
+        </loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-and-rspec-version-bumps/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/new-version-of-spork/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://news.railstutorial.org/coderpath-interview-about-the-rails-tutorial-project/
+        </loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/half-tau-day/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/upgrade-to-rails-3-0-6/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-tutorial-book-online-vs-pdf-/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/free-bonus-screencast-on-haml/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/ruby-hero-awards/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-3-0-7/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/affiliate-program-quick-clarification/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-tutorial-affiliate-program/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-tutorial-book-update/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-tutorial-rails-3-1/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/model-annotation/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://news.railstutorial.org/ruby-on-rails-tutorial-second-edition-updated-for-rails-3-2-/
         </loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/get-a-40-discount-on-the-rails-3-tutorial-book-one-day-only-/
-        </loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/the-ruby-on-rails-3-tutorial-screencast-series/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-3-0-security-update/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/making-the-big-time-/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-tutorial-coupon-code/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-tutorial-review-in-dr-dobb-s/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/installation-update-for-os-x-linux/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/post-turkey-day-sale/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/rails-tutorial-book-upgraded-to-rails-3-0-3-and-rspec-2-1-0/
-        </loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/la-rubyconf-and-the-rails-tutorial-story/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-tutorial-holiday-discount/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/the-print-edition-of-the-ruby-on-rails-3-tutorial-is-out/
-        </loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-and-rspec-version-bumps/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/new-version-of-spork/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/coderpath-interview-about-the-rails-tutorial-project/
-        </loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/half-tau-day/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/upgrade-to-rails-3-0-6/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-tutorial-book-online-vs-pdf-/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/free-bonus-screencast-on-haml/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/ruby-hero-awards/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-3-0-7/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/affiliate-program-quick-clarification/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-tutorial-affiliate-program/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-tutorial-book-update/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/rails-tutorial-rails-3-1/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/model-annotation/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/ruby-on-rails-tutorial-second-edition-updated-for-rails-3-2-/
+            http://news.railstutorial.org/chapter-6-of-the-rails-tutorial-2nd-edition-is-out-modeling-users-/
         </loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/chapter-6-of-the-rails-tutorial-2nd-edition-is-out-modeling-users-/
+            http://news.railstutorial.org/chapters-7-8-of-the-rails-tutorial-2nd-edition-are-out-sign-up-sign-in-sign-out-/
         </loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/chapters-7-8-of-the-rails-tutorial-2nd-edition-are-out-sign-up-sign-in-sign-out-/
+            http://news.railstutorial.org/chapter-9-of-the-rails-tutorial-2nd-edition-is-out-updating-showing-and-deleting-users-/
         </loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/chapter-9-of-the-rails-tutorial-2nd-edition-is-out-updating-showing-and-deleting-users-/
+            http://news.railstutorial.org/a-full-draft-of-the-ruby-on-rails-tutorial-2nd-edition-is-now-available/
         </loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/a-full-draft-of-the-ruby-on-rails-tutorial-2nd-edition-is-now-available/
+            http://news.railstutorial.org/the-ruby-on-rails-tutorial-now-with-twitter-s-bootstrap/
         </loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/the-ruby-on-rails-tutorial-now-with-twitter-s-bootstrap/
+            http://news.railstutorial.org/rails-tutorial-sample-screencast-video-timely-feedback-requested-/
         </loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
+        <loc>http://news.railstutorial.org/a-behind-the-scenes-look-at-the-rails-tutorial/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/rails-3-2-3-update/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/ruby-on-rails-tutorial-2nd-edition/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/minor-book-update/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/confusing-coupons/</loc>
+        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
+    </url>
+    <url>
         <loc>
-            http://railstutorial.github.com/rails-tutorial-sample-screencast-video-timely-feedback-requested-/
+            http://news.railstutorial.org/international-day-against-drm-rails-tutorial-discount/
         </loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/a-behind-the-scenes-look-at-the-rails-tutorial/</loc>
+        <loc>http://news.railstutorial.org/some-free-rails-tutorial-screencasts/</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/rails-3-2-3-update/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/ruby-on-rails-tutorial-2nd-edition/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/minor-book-update/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/confusing-coupons/</loc>
+        <loc>http://news.railstutorial.org/ruby-on-rails-tutorial-screencasts-2nd-edition/</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/international-day-against-drm-rails-tutorial-discount/
-        </loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/some-free-rails-tutorial-screencasts/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://railstutorial.github.com/ruby-on-rails-tutorial-screencasts-2nd-edition/</loc>
-        <lastmod>2013-02-20T20:29:52-08:00</lastmod>
-    </url>
-    <url>
-        <loc>
-            http://railstutorial.github.com/do-not-buy-the-print-version-of-the-ruby-on-rails-tutorial-yet-/
+            http://news.railstutorial.org/do-not-buy-the-print-version-of-the-ruby-on-rails-tutorial-yet-/
         </loc>
         <lastmod>2013-02-26T10:23:11-08:00</lastmod>
     </url>
     <url>
         <loc>
-            http://railstutorial.github.com/new-epub-and-mobi-versions-of-the-ruby-on-rails-tutorial/
+            http://news.railstutorial.org/new-epub-and-mobi-versions-of-the-ruby-on-rails-tutorial/
         </loc>
-        <lastmod>2013-03-13T21:40:28-07:00</lastmod>
+        <lastmod>2013-03-13T21:44:40-07:00</lastmod>
     </url>
     <url>
-        <loc>
-            http://railstutorial.github.com/print-edition-of-the-ruby-on-rails-tutorial-book/
-        </loc>
-        <lastmod>2013-03-13T21:40:28-07:00</lastmod>
+        <loc>http://news.railstutorial.org/print-edition-of-the-ruby-on-rails-tutorial-book/</loc>
+        <lastmod>2013-03-13T21:44:40-07:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/update-on-the-rails-tutorial-print-edition/</loc>
-        <lastmod>2013-03-13T21:40:28-07:00</lastmod>
+        <loc>http://news.railstutorial.org/update-on-the-rails-tutorial-print-edition/</loc>
+        <lastmod>2013-03-13T21:44:40-07:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/programmer-training-academies/</loc>
+        <loc>http://news.railstutorial.org/programmer-training-academies/</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/rails-security-fixes-version-upgrade/</loc>
+        <loc>http://news.railstutorial.org/rails-security-fixes-version-upgrade/</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/blog/archives/</loc>
-        <lastmod>2013-03-13T21:40:28-07:00</lastmod>
+        <loc>http://news.railstutorial.org/test-post/</loc>
+        <lastmod>2013-03-13T21:44:40-07:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/</loc>
-        <lastmod>2013-03-13T21:40:28-07:00</lastmod>
+        <loc>http://news.railstutorial.org/rails-tutorial-chinese-translation/</loc>
+        <lastmod>2013-03-13T21:44:40-07:00</lastmod>
     </url>
     <url>
-        <loc>http://railstutorial.github.com/robots.txt</loc>
+        <loc>http://news.railstutorial.org/blog/archives/</loc>
+        <lastmod>2013-03-13T21:44:40-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/</loc>
+        <lastmod>2013-03-13T21:44:40-07:00</lastmod>
+    </url>
+    <url>
+        <loc>http://news.railstutorial.org/robots.txt</loc>
         <lastmod>2013-02-20T20:29:52-08:00</lastmod>
     </url>
 </urlset>
