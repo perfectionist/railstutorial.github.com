@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Rails security fixes, version upgrade - Ruby on Rails Tutorial News</title>
+  <meta name="author" content="Michael Hartl">
+
+  
+  <meta name="description" content="I&#8217;ve just upgraded the Ruby on Rails Tutorial to use Rails&nbsp;3.2.11, which contains two important security fixes (one for SQL injection and &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://news.railstutorial.org/rails-security-fixes-version-upgrade/">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/railstutorial" rel="alternate" title="Ruby on Rails Tutorial News" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Ruby on Rails Tutorial News</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://feeds.feedburner.com/railstutorial" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+    <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=railstutorial" rel="subscribe-email" title="subscribe via email">Email</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:news.railstutorial.org" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+  <li><a href="http://railstutorial.org/">Ruby on Rails Tutorial</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Rails security fixes, version upgrade</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-08T00:00:00-08:00" pubdate data-updated="true">Jan 8<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I&#8217;ve just upgraded the <a href="http://ruby.railstutorial.org/ruby-on-rails-tutorial-book">Ruby on Rails Tutorial</a> to use Rails&nbsp;3.2.11, which contains two important security fixes (one for <a href="https://groups.google.com/forum/?fromgroups=#!topic/rubyonrails-security/DCNTNp_qjFM">SQL injection</a> and one for <a href="https://groups.google.com/forum/#!topic/rubyonrails-security/61bkgvnSGTQ/discussion">parameter parsing</a>). The latest versions of the online book, ebooks, and sample application all now reflect this change.</p>
+<p>It is critical to upgrade all of your production applications as soon as possible. The easiest way to do this is to edit your <tt>Gemfile</tt> and change the Rails gem version from <tt>&#8216;3.2.x&#8217;</tt> to <tt>&#8216;3.2.11&#8217;</tt>. Then run</p>
+<div class="CodeRay">
+  <div class="code"><pre>$ bundle update rails &amp;&amp; bundle install</pre></div>
+</div>
+
+<p>to apply the update. (If you&#8217;re running Rails 3.1.x, 3.0.x, or 2.3.x, there are security patches for those branches as well, as detailed in the <a href="https://groups.google.com/forum/#!topic/rubyonrails-security/61bkgvnSGTQ/discussion">parameter parsing post</a>.)</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Michael Hartl</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-08T00:00:00-08:00" pubdate data-updated="true">Jan 8<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://news.railstutorial.org/rails-security-fixes-version-upgrade/" data-via="" data-counturl="http://news.railstutorial.org/rails-security-fixes-version-upgrade/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/programmer-training-academies/" title="Previous Post: Programmer training academies">&laquo; Programmer training academies</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/rails-security-fixes-version-upgrade/">Rails security fixes, version upgrade</a>
+      </li>
+    
+      <li class="post">
+        <a href="/programmer-training-academies/">Programmer training academies</a>
+      </li>
+    
+      <li class="post">
+        <a href="/update-on-the-rails-tutorial-print-edition/">Update on the Rails Tutorial print edition</a>
+      </li>
+    
+      <li class="post">
+        <a href="/print-edition-of-the-ruby-on-rails-tutorial-book/">Print edition of the Ruby on Rails Tutorial book</a>
+      </li>
+    
+      <li class="post">
+        <a href="/new-epub-and-mobi-versions-of-the-ruby-on-rails-tutorial/">New EPUB and MOBI versions of the Ruby on Rails Tutorial</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Michael Hartl -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
